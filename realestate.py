@@ -6,8 +6,8 @@ import sys
 import re
 
 import logging
+import HTMLParser
 
-from html.parser import HTMLParser
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy.exporters import CsvItemExporter
